@@ -49,4 +49,32 @@
         tools:layout_editor_absoluteX="37dp"
         tools:layout_editor_absoluteY="329dp" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="#CCCBCB"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Kansas City Chiefs"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="#CCCBCB"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Tampa Bay Buccaneers"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="474dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
