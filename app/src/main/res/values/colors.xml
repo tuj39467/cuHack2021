@@ -3,4 +3,11 @@
     <color name="colorPrimary">#EE0000</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#FDFDFD</color>
+
+    <color name="bg_color">#FDFDFD</color>
+    <color name="android">#3F51B5</color>
+    <color name="gk">#CDDC39</color>
+    <color name="English">#FF9800</color>
+
+
 </resources>
