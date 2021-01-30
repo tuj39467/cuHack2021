@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainScreen">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -15,11 +15,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/a" />
 
+    <Spinner
+        android:id="@+id/selectEvent"
+        android:layout_width="249dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="314dp"
+        android:dropDownSelector="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="450dp"
         android:layout_height="400dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="384dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/OIP" />
