@@ -15,29 +15,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/a" />
 
-    <Spinner
-        android:id="@+id/selectEvent"
-        android:layout_width="249dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="78dp"
-        android:layout_marginTop="314dp"
-        android:dropDownSelector="@android:color/background_dark"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="450dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="356dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/stadium" />
-
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="336dp"
         android:layout_height="47dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="329dp"
         android:background="#FFFFFF"
         android:backgroundTint="#9F9595"
         android:ems="10"
@@ -46,13 +29,15 @@
         android:text="WELCOME TO THE SUPER BOWL LV TRIVIA"
         android:textAlignment="center"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="329dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/chiefs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="408dp"
         android:background="#FFFFFF"
         android:backgroundTint="#CCCBCB"
         android:fontFamily="sans-serif-condensed-medium"
@@ -60,13 +45,15 @@
         android:textAlignment="center"
         android:textColor="#FBFBFB"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="408dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/bay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="474dp"
         android:background="#FFFFFF"
         android:backgroundTint="#CCCBCB"
         android:fontFamily="sans-serif-condensed-medium"
@@ -74,7 +61,17 @@
         android:textAlignment="center"
         android:textColor="#FBFBFB"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="474dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="228dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stadium2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

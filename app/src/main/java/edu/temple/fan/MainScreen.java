@@ -52,39 +52,6 @@ public class MainScreen extends AppCompatActivity {
 
 
 
-        spinner = findViewById(R.id.selectEvent);
-
-        final String[] events = {"Choose an event", "Sports", "Concerts"};
-
-        final BaseAdapter EventAdapter = new EventAdapter(MainScreen.this, events);
-
-        spinner.setAdapter(EventAdapter);
-
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                ((TextView)spinner.getSelectedView()).setBackgroundColor(Color.MAGENTA);
-
-                if(events[position].equals("Red")) {
-                    //myLayout.setBackgroundColor(Color.RED);
-                }
-                else if(events[position].equals("Yellow")) {
-                    //myLayout.setBackgroundColor(Color.YELLOW);
-                }else if(events[position].equals("Green")) {
-                    //myLayout.setBackgroundColor(Color.GREEN);
-
-            }
-
-        }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
-
-        });
-
 
     }
 }
