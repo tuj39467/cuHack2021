@@ -5,6 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--TITLE -->
+        <TextView
+            android:id="@+id/toolbar_tittle"
+            style="@style/Toolbar.TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+
+    </androidx.appcompat.widget.Toolbar>
 
     <EditText
         android:id="@+id/editTextTextPersonName2"

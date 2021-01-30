@@ -3,5 +3,26 @@
     <string name="andriod">Android</string>
     <string name="gk">GK</string>
     <string name="English">English</string>
+    <string name="denmark" />
+    <string name="evaluate_button" />
+    <string name="reset_button" />
+    <string name="sub_header" />
+    <string name="question1" />
+    <string name="question2" />
+    <string name="checkbox_greece" />
+    <string name="checkbox_burma" />
+    <string name="checkbox_luxembourg" />
+    <string name="question3" />
+    <string name="north" />
+    <string name="east" />
+    <string name="south" />
+    <string name="west" />
+    <string name="question4" />
+    <string name="munich_question_1" />
+    <string name="munich_question_3" />
+    <string name="munich_question_2" />
+    <string name="question5" />
+    <string name="germany" />
+    <string name="poland" />
 
 </resources>
