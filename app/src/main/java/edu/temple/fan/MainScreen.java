@@ -14,14 +14,14 @@ public class MainScreen extends AppCompatActivity {
 
     Spinner spinner;
 
-    @Override//
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         spinner = findViewById(R.id.selectEvent);
 
-        final String[] events = {"Choose an event", "Sports", "Concerts", "Private Event"};
+        final String[] events = {"Choose an event", "Sports", "Concerts"};
 
         final BaseAdapter EventAdapter = new EventAdapter(MainScreen.this, events);
 
