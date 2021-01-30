@@ -42,6 +42,7 @@
         android:backgroundTint="#9F9595"
         android:ems="10"
         android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
         android:text="WELCOME TO THE SUPER BOWL LV TRIVIA"
         android:textAlignment="center"
         android:textSize="18sp"
