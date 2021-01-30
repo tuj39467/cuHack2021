@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Fan</string>
+    <string name="andriod">Android</string>
+    <string name="gk">GK</string>
+    <string name="English">English</string>
+
 </resources>
