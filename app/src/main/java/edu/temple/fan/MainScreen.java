@@ -30,7 +30,7 @@ public class MainScreen extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent quizActivityIntent = new Intent(MainScreen.this,ChiefsQuizActivity.class);
+                Intent quizActivityIntent = new Intent(MainScreen.this,ChiefQuizActivity.class);
                 startActivity(quizActivityIntent);
             }
         });
