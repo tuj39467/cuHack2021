@@ -25,56 +25,44 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="331dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="349dp"
+        android:text="Welcome to the super bowl LV trivia"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bay"
+        android:layout_width="224dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginBottom="251dp"
+        android:text="Tampa Bay Buccaneers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/chiefs"
+        android:layout_width="176dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="392dp"
+        android:text="Kansas City Chiefs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="450dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="356dp"
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/stadium" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="336dp"
-        android:layout_height="47dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#9F9595"
-        android:ems="10"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:inputType="textPersonName"
-        android:text="WELCOME TO THE SUPER BOWL LV TRIVIA"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="329dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:backgroundTint="#CCCBCB"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="Kansas City Chiefs"
-        android:textAlignment="center"
-        android:textColor="#FBFBFB"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="408dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:backgroundTint="#CCCBCB"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="Tampa Bay Buccaneers"
-        android:textAlignment="center"
-        android:textColor="#FBFBFB"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="474dp" />
+        app:srcCompat="@drawable/stadium2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
