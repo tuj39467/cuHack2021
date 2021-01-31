@@ -52,9 +52,9 @@
             android:autofillHints="" />
 
             <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:id="@+id/funnyGuy"
+                android:layout_width="wrap_content"
+                android:layout_height="472dp"
                 app:srcCompat="@drawable/esllizardsquad" />
 
             <TextView
@@ -165,6 +165,13 @@
             </RadioGroup>
 
 
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="620dp"
+                android:maxHeight="20dp"
+                app:srcCompat="@drawable/therealguy_6_0" />
+
             <TextView
                 android:layout_width="373dp"
                 android:layout_height="wrap_content"
@@ -187,12 +194,6 @@
                 android:buttonTint="#F44336"
                 android:text="Mahomes" />
 
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/therealguy_6_0" />
-
             <CheckBox
                 android:id="@+id/question_4_option_1"
                 android:layout_width="wrap_content"
@@ -202,12 +203,6 @@
                 android:layout_marginBottom="12dp"
                 android:buttonTint="#F44336"
                 android:text="Tom Braidi" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/mickydees" />
 
 
             <CheckBox
@@ -221,9 +216,15 @@
                 android:text="Ronaldo" />
 
             <ImageView
-                android:id="@+id/imageView10"
+                android:id="@+id/imageView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mickydees" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="352dp"
                 app:srcCompat="@drawable/ppl" />
 
             <TextView
