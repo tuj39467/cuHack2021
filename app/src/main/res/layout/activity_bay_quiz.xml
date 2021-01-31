@@ -32,27 +32,33 @@
                 android:textSize="22sp" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="376dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="12dp"
-                android:text="@string/question1"
+                android:text="Who is the Chief's Quaterback?"
+                android:textAlignment="center"
+                android:textColor="#070707"
                 android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/question_1"
-                android:layout_width="match_parent"
+                android:layout_width="379dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:id="@+id/1question"
+                android:layout_width="378dp"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="6dp"
-                android:text="@string/question2"
+                android:background="#EEAD1E"
+                android:text="How many time has Mahomes played in the Super Bowl?"
+                android:textAlignment="center"
+                android:textColor="#FFFAFA"
                 android:textSize="16sp" />
 
             <CheckBox
@@ -62,7 +68,9 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
-                android:text="@string/checkbox_greece" />
+                android:buttonTint="#F44336"
+                android:text="3"
+                android:textColor="#000000" />
 
             <CheckBox
                 android:id="@+id/question_2_Burma"
@@ -71,7 +79,9 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
-                android:text="@string/checkbox_burma" />
+                android:buttonTint="#F44336"
+                android:text="0"
+                android:textColor="#000000" />
 
             <CheckBox
                 android:id="@+id/question_2_Luxembourg"
@@ -80,15 +90,21 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
-                android:text="@string/checkbox_luxembourg" />
+                android:buttonTint="#F44336"
+                android:text="2"
+                android:textColor="#000000" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:id="@+id/2question"
+                android:layout_width="374dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="6dp"
-                android:text="@string/question3"
+                android:background="#EEAD1E"
+                android:text="What is The Chief's Stadium ?"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="16sp" />
 
             <RadioGroup
@@ -104,7 +120,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="0dp"
-                    android:text="@string/north" />
+                    android:buttonTint="#F44336"
+                    android:text="Arrowhead Stadium"
+                    android:textColor="#000000" />
 
                 <RadioButton
                     android:id="@+id/question_3_east"
@@ -113,7 +131,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="0dp"
-                    android:text="@string/east" />
+                    android:buttonTint="#F44336"
+                    android:text="Mercedes-Benz Superdome"
+                    android:textColor="#020202" />
 
                 <RadioButton
                     android:id="@+id/question_3_south"
@@ -122,7 +142,8 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="0dp"
-                    android:text="@string/south" />
+                    android:buttonTint="#F44336"
+                    android:text="Soldier Field" />
 
                 <RadioButton
                     android:id="@+id/question_3_west"
@@ -131,15 +152,17 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="6dp"
-                    android:text="@string/west" />
+                    android:buttonTint="#F44336"
+                    android:text="Lincoln Financial Field" />
             </RadioGroup>
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="373dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="6dp"
+                android:background="#EEAD1E"
                 android:text="@string/question4"
                 android:textSize="16sp" />
 
@@ -171,11 +194,12 @@
                 android:text="@string/munich_question_2" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="374dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="6dp"
+                android:background="#EEAD1E"
                 android:text="@string/question5"
                 android:textSize="16sp" />
 
