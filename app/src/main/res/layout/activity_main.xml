@@ -31,23 +31,6 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="336dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="329dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#9F9595"
-        android:ems="10"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:inputType="textPersonName"
-        android:text="WELCOME TO THE SUPER BOWL LV TRIVIA"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/chiefs"
         android:layout_width="wrap_content"
@@ -98,5 +81,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/stadium2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C1BFBF"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="WELCOME TO THE SUPER BOWL LV TRIVIA"
+        android:textAlignment="center"
+        android:textColor="#F40606"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/chiefs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
