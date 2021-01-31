@@ -24,5 +24,8 @@
     <string name="question5" />
     <string name="germany" />
     <string name="poland" />
+    <string name="welcome_to_the_super_bowl_lv_trivia">WELCOME TO THE SUPER BOWL LV TRIVIA</string>
+    <string name="tampa_bay_buccaneers">Tampa Bay Buccaneers</string>
+    <string name="kansas_city_chiefs">Kansas City Chiefs</string>
 
 </resources>
