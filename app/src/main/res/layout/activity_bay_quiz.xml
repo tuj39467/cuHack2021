@@ -31,17 +31,25 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="12dp"
-                android:text="Who is the Chief's Quaterback?"
+                android:text="Who is The Buccaneers Quaterback?"
                 android:textAlignment="center"
                 android:textColor="#070707"
                 android:textSize="16sp" />
             <EditText
                 android:id="@+id/question_1"
                 android:layout_width="379dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp" />
+                android:layout_height="match_parent"
                 android:layout_marginLeft="16dp"
-                android:autofillHints="" />
+                android:background="#23737070"
+                android:backgroundTint="#7C7777"
+                android:capitalize="words"
+                android:hint="Type Here"
+                android:lines="1"
+                android:maxHeight="35dp"
+                android:maxLines="1"
+                android:textAllCaps="true" />
+            android:layout_marginLeft="16dp"
+            android:autofillHints="" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -57,8 +65,8 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="6dp"
-                android:background="#EEAD1E"
-                android:text="How many time has Mahomes played in the Super Bowl?"
+                android:background="#000000"
+                android:text="What did McKay say was his biggest reason for taking the job coaching the Buccaneers?"
                 android:textAlignment="center"
                 android:textColor="#FFFAFA"
                 android:textSize="16sp" />
@@ -72,7 +80,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
                 android:buttonTint="#F44336"
-                android:text="3"
+                android:text="The cigars"
                 android:textColor="#000000" />
             <CheckBox
                 android:id="@+id/question_2_option_2"
@@ -82,7 +90,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
                 android:buttonTint="#F44336"
-                android:text="0"
+                android:text="The girls"
                 android:textColor="#000000" />
 
 
@@ -94,7 +102,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
                 android:buttonTint="#F44336"
-                android:text="2"
+                android:text="The guys"
                 android:textColor="#000000" />
 
             <TextView
@@ -104,8 +112,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="6dp"
-                android:background="#EEAD1E"
-                android:text="What is The Chief's Stadium ?"
+                android:background="#000000"
+                android:text="How was Buccaneers chosen as the team name?"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
@@ -123,8 +131,8 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="0dp"
-                    android:buttonTint="#F44336"
-                    android:text="Arrowhead Stadium"
+                    android:buttonTint="#F30000"
+                    android:text="By the Mayor of the city "
                     android:textColor="#000000" />
                 <RadioButton
                     android:id="@+id/question_3_option_3"
@@ -134,7 +142,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="0dp"
                     android:buttonTint="#F44336"
-                    android:text="Mercedes-Benz Superdome"
+                    android:text="In a name-contest"
                     android:textColor="#020202" />
                 <RadioButton
                     android:id="@+id/question_3_Option_2"
@@ -144,7 +152,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="0dp"
                     android:buttonTint="#F44336"
-                    android:text="Soldier Field" />
+                    android:text="By the owner of the team" />
                 <RadioButton
                     android:id="@+id/question_3_option_1"
                     android:layout_width="wrap_content"
@@ -153,7 +161,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="6dp"
                     android:buttonTint="#F44336"
-                    android:text="Lincoln Financial Field" />
+                    android:text="By the pirates " />
             </RadioGroup>
 
 
@@ -163,8 +171,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="6dp"
-                android:background="#EEAD1E"
-                android:text="What was The Chief's original name ?"
+                android:background="#000000"
+                android:text="What is the name of The Buccaneers quaterback ?"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
@@ -177,7 +185,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
                 android:buttonTint="#F44336"
-                android:text="The Rams" />
+                android:text="Mahomes" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -193,7 +201,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
                 android:buttonTint="#F44336"
-                android:text="The Texans" />
+                android:text="Tom Braidi" />
 
             <ImageView
                 android:id="@+id/imageView9"
@@ -210,7 +218,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
                 android:buttonTint="#F44336"
-                android:text="The Shreks" />
+                android:text="Ronaldo" />
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -224,8 +232,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="6dp"
-                android:background="#EEAD1E"
-                android:text="Hall of Fame : Most Career Receptions for The Chief's"
+                android:background="#000000"
+                android:text="Hall of Fame : Who was the first Tampa Bay Buccaneer in the Pro Football Hall of Fame"
                 android:textAlignment="center"
                 android:textColor="#F8F8F8"
                 android:textSize="16sp" />
@@ -244,7 +252,7 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="0dp"
                     android:buttonTint="#F44336"
-                    android:text="Tony Gonzalez" />
+                    android:text="Lee Roy Selmon " />
                 <RadioButton
                     android:id="@+id/question_5_option_2"
                     android:layout_width="wrap_content"
@@ -254,7 +262,7 @@
                     android:layout_marginBottom="0dp"
                     android:buttonTint="#F44336"
                     android:text="Jamaal Charles"
-                    android:textColor="#000000" />
+                    android:textColor="#050505" />
                 <RadioButton
                     android:id="@+id/question_5_option_1"
                     android:layout_width="wrap_content"
