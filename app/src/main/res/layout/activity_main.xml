@@ -68,9 +68,9 @@
         android:id="@+id/ImageParty"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="64dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/a" />
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:srcCompat="@drawable/a"
+        tools:layout_editor_absoluteY="64dp" />
 
     <ImageView
         android:id="@+id/imageView8"
