@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".BayQuizActivity">
 
     <ScrollView
@@ -20,8 +21,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
-                android:text="@string/sub_header"
+                android:background="#FF0707"
+                android:text="Welcome To The Bucaneers Trivia"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="22sp" />
 
             <TextView
@@ -279,12 +282,15 @@
                 android:id="@+id/evaluate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="22dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:layout_marginBottom="22dp"
+                android:background="#FF0707"
                 android:onClick="startEvaluation"
-                android:text="@string/evaluate_button"
-                tools:ignore="OnClick" />
+                android:text="Check Results"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/reset"
@@ -292,11 +298,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:background="#FF0707"
                 android:onClick="reset"
-                android:text="@string/reset_button"
-                android:textColor="#ff0033"
-                android:textStyle="bold"
-                tools:ignore="OnClick" />
+                android:text="Reset"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>
