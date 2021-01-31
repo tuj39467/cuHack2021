@@ -115,15 +115,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <RadioButton
                     android:id="@+id/question_3_option_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="0dp"
                     android:buttonTint="#F44336"
-                    android:text="Arrowhead Stadium"
+                    android:text="@string Arrowhead Stadium"
                     android:textColor="#000000" />
                 <RadioButton
                     android:id="@+id/question_3_option_3"

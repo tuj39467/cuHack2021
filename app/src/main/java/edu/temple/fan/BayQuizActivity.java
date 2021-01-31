@@ -38,7 +38,7 @@ public class BayQuizActivity extends AppCompatActivity {
 
         Boolean answerQuestion2 = false;
 
-        if (checkBoxQuestion2_3.isChecked() == true && checkBoxQuestion2_2.isChecked() == false && checkBoxQuestion2_1.isChecked() == true) {
+        if (checkBoxQuestion2_3.isChecked() == true && checkBoxQuestion2_2.isChecked() == false && checkBoxQuestion2_1.isChecked() == false) {
             answerQuestion2 = true;
         }
         CheckBox checkBoxQuestion4_3 = findViewById(R.id.question_4_option_3);
