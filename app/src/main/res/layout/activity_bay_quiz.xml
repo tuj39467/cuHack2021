@@ -64,7 +64,7 @@
                 android:textSize="16sp" />
 
             <CheckBox
-                android:id="@+id/question_2_Greece"
+                android:id="@+id/question_2_Option_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -75,7 +75,7 @@
                 android:text="3"
                 android:textColor="#000000" />
             <CheckBox
-                android:id="@+id/question_2_Burma"
+                android:id="@+id/question_2_option_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -87,7 +87,7 @@
 
 
             <CheckBox
-                android:id="@+id/question_2_Luxembourg"
+                android:id="@+id/question_2_option_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -116,7 +116,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <RadioButton
-                    android:id="@+id/question_3_north"
+                    android:id="@+id/question_3_option_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -126,7 +126,7 @@
                     android:text="Arrowhead Stadium"
                     android:textColor="#000000" />
                 <RadioButton
-                    android:id="@+id/question_3_east"
+                    android:id="@+id/question_3_option_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -136,7 +136,7 @@
                     android:text="Mercedes-Benz Superdome"
                     android:textColor="#020202" />
                 <RadioButton
-                    android:id="@+id/question_3_south"
+                    android:id="@+id/question_3_Option_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -145,7 +145,7 @@
                     android:buttonTint="#F44336"
                     android:text="Soldier Field" />
                 <RadioButton
-                    android:id="@+id/question_3_west"
+                    android:id="@+id/question_3_option_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -169,7 +169,7 @@
                 android:textSize="16sp" />
 
             <CheckBox
-                android:id="@+id/question_4_capital"
+                android:id="@+id/question_4_option_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -185,7 +185,7 @@
                 app:srcCompat="@drawable/therealguy_6_0" />
 
             <CheckBox
-                android:id="@+id/question_4_bavaria"
+                android:id="@+id/question_4_option_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -202,7 +202,7 @@
 
 
             <CheckBox
-                android:id="@+id/question_4_hessia"
+                android:id="@+id/question_4_option_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -236,7 +236,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <RadioButton
-                    android:id="@+id/question_5_germany"
+                    android:id="@+id/question_5_option_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -245,7 +245,7 @@
                     android:buttonTint="#F44336"
                     android:text="Tony Gonzalez" />
                 <RadioButton
-                    android:id="@+id/question_5_poland"
+                    android:id="@+id/question_5_option_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -255,7 +255,7 @@
                     android:text="Jamaal Charles"
                     android:textColor="#000000" />
                 <RadioButton
-                    android:id="@+id/question_5_denmark"
+                    android:id="@+id/question_5_option_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
