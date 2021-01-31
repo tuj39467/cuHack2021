@@ -42,15 +42,15 @@
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="889dp"
+                android:layout_height="wrap_content"
                 app:srcCompat="@drawable/esllizardsquad" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="6dp"
                 android:text="@string/question2"
                 android:textSize="16sp" />
 
@@ -136,10 +136,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="6dp"
-                android:text="Who is the quarterback"
+                android:text="@string/question4"
                 android:textSize="16sp" />
 
             <CheckBox
@@ -151,12 +151,6 @@
                 android:layout_marginTop="0dp"
                 android:text="@string/munich_question_1" />
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/mickydees" />
-
             <CheckBox
                 android:id="@+id/question_4_bavaria"
                 android:layout_width="wrap_content"
@@ -165,12 +159,6 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:text="@string/munich_question_3" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="446dp"
-                android:layout_height="1296dp"
-                app:srcCompat="@drawable/therealguy_6_0" />
 
             <CheckBox
                 android:id="@+id/question_4_hessia"
