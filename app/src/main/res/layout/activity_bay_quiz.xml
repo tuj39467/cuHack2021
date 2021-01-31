@@ -163,7 +163,9 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="6dp"
                 android:background="#EEAD1E"
-                android:text="@string/question4"
+                android:text="What was The Chief's original name ?"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="16sp" />
 
             <CheckBox
@@ -173,7 +175,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
-                android:text="@string/munich_question_1" />
+                android:buttonTint="#F44336"
+                android:text="The Rams" />
 
             <CheckBox
                 android:id="@+id/question_4_bavaria"
@@ -182,7 +185,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
-                android:text="@string/munich_question_3" />
+                android:buttonTint="#F44336"
+                android:text="The Texans" />
 
             <CheckBox
                 android:id="@+id/question_4_hessia"
@@ -191,7 +195,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="12dp"
-                android:text="@string/munich_question_2" />
+                android:buttonTint="#F44336"
+                android:text="The Shreks" />
 
             <TextView
                 android:layout_width="374dp"
@@ -200,7 +205,9 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="6dp"
                 android:background="#EEAD1E"
-                android:text="@string/question5"
+                android:text="Hall of Fame : Most Career Receptions for The Chief's"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
                 android:textSize="16sp" />
 
             <RadioGroup
@@ -216,7 +223,8 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="0dp"
-                    android:text="@string/germany" />
+                    android:buttonTint="#F44336"
+                    android:text="Tony Gonzalez" />
 
                 <RadioButton
                     android:id="@+id/question_5_poland"
@@ -225,7 +233,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="0dp"
-                    android:text="@string/poland" />
+                    android:buttonTint="#F44336"
+                    android:text="Jamaal Charles"
+                    android:textColor="#000000" />
 
                 <RadioButton
                     android:id="@+id/question_5_denmark"
@@ -234,7 +244,8 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="22dp"
-                    android:text="@string/denmark" />
+                    android:buttonTint="#F44336"
+                    android:text="Len Dawson" />
             </RadioGroup>
 
             <Button
