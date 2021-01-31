@@ -19,43 +19,38 @@ public class ChiefQuiz extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_chief_quiz);
     }
 
     public void startEvaluation(View view) {
         String[] answers = evaluateGui();
-
         int result = evaluateQuiz(answers);
-
         toastResult(result);
     }
 
     public String[] evaluateGui() {
         String[] ret = new String[5];
         EditText editTextQuestion1 = findViewById(R.id.question_1);
-
-        CheckBox checkBoxQuestion2Greece = findViewById(R.id.question_2_Greece);
-        CheckBox checkBoxQuestion2Burma = findViewById(R.id.question_2_Burma);
-        CheckBox checkBoxQuestion2Luxembourg = findViewById(R.id.question_2_Luxembourg);
+        CheckBox checkBoxQuestion2_3 = findViewById(R.id.question_2_Option_3);
+        CheckBox checkBoxQuestion2_2 = findViewById(R.id.question_2_option_2);
+        CheckBox checkBoxQuestion2_1 = findViewById(R.id.question_2_option_1);
 
         Boolean answerQuestion2 = false;
 
-        if (checkBoxQuestion2Greece.isChecked() == true && checkBoxQuestion2Burma.isChecked() == false && checkBoxQuestion2Luxembourg.isChecked() == true) {
+        if (checkBoxQuestion2_3.isChecked() == true && checkBoxQuestion2_2.isChecked() == false && checkBoxQuestion2_1.isChecked() == false) {
             answerQuestion2 = true;
         }
-
-        CheckBox checkBoxQuestion4Capital = findViewById(R.id.question_4_capital);
-        CheckBox checkBoxQuestion4Hessia = findViewById(R.id.question_4_hessia);
-        CheckBox checkBoxQuestion4Bavaria = findViewById(R.id.question_4_bavaria);
+        CheckBox checkBoxQuestion4_3 = findViewById(R.id.question_4_option_3);
+        CheckBox checkBoxQuestion4_2 = findViewById(R.id.question_2_option_2);
+        CheckBox checkBoxQuestion4_1 = findViewById(R.id.question_4_option_1);
 
         Boolean answerQuestion4 = false;
+        Boolean option3 = checkBoxQuestion4_3.isChecked();
+        Boolean option2 = checkBoxQuestion4_2.isChecked();
+        Boolean option1 = checkBoxQuestion4_1.isChecked();
 
-        Boolean capital = checkBoxQuestion4Capital.isChecked();
-        Boolean hessia = checkBoxQuestion4Hessia.isChecked();
-        Boolean bavaria = checkBoxQuestion4Bavaria.isChecked();
 
-
-        if (capital == false && hessia == false && bavaria == true) {
+        if (option3 == false && option2 == false && option1 == true) {
             answerQuestion4 = true;
         }
 
@@ -70,8 +65,7 @@ public class ChiefQuiz extends AppCompatActivity {
 
     public int evaluateQuiz(String[] answers) {
         int result = 0;
-        String[] correctAnswers = {"paris", "true", "south", "true", "germany"};
-
+        String[] correctAnswers = {"Mahomes", "true", "Shrek", "true", };
         for (int i = 0; i < correctAnswers.length; i++) {
             if (answers[i].equals(correctAnswers[i])) {
                 result++;
@@ -123,25 +117,25 @@ public class ChiefQuiz extends AppCompatActivity {
         EditText editText = findViewById(R.id.question_1);
         editText.setText("");
 
-        CheckBox checkBox = findViewById(R.id.question_2_Greece);
+        CheckBox checkBox = findViewById(R.id.question_2_Option_3);
         checkBox.setChecked(false);
 
-        checkBox = findViewById(R.id.question_2_Burma);
+        checkBox = findViewById(R.id.question_2_option_2);
         checkBox.setChecked(false);
 
-        checkBox = findViewById(R.id.question_2_Luxembourg);
+        checkBox = findViewById(R.id.question_2_option_1);
         checkBox.setChecked(false);
 
         RadioGroup radioGroup = findViewById(R.id.radio_group_question_3);
         radioGroup.clearCheck();
 
-        checkBox = findViewById(R.id.question_4_capital);
+        checkBox = findViewById(R.id.question_4_option_3);
         checkBox.setChecked(false);
 
-        checkBox = findViewById(R.id.question_4_hessia);
+        checkBox = findViewById(R.id.question_4_option_2);
         checkBox.setChecked(false);
 
-        checkBox = findViewById(R.id.question_4_bavaria);
+        checkBox = findViewById(R.id.question_4_option_1);
         checkBox.setChecked(false);
 
         radioGroup = findViewById(R.id.radio_group_question_5);

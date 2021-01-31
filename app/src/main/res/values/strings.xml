@@ -28,5 +28,6 @@
     <string name="tampa_bay_buccaneers">Tampa Bay Buccaneers</string>
     <string name="kansas_city_chiefs">Kansas City Chiefs</string>
     <string name="welcome_to_the_chiefs_trivia">Welcome To The Chiefs Trivia</string>
+    <string name="button">Button</string>
 
 </resources>

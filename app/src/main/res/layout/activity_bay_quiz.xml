@@ -124,7 +124,7 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="0dp"
                     android:buttonTint="#F44336"
-                    android:text="@string Arrowhead Stadium"
+                    android:text="Arrowhead Stadium"
                     android:textColor="#000000" />
                 <RadioButton
                     android:id="@+id/question_3_option_3"
