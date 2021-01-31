@@ -146,10 +146,16 @@
                 android:id="@+id/question_4_capital"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
-                android:text="@string/munich_question_1" />
+                android:layout_marginBottom="12dp"
+                android:text="Who is their quarterback" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/therealguy_6_0" />
 
             <CheckBox
                 android:id="@+id/question_4_bavaria"
@@ -160,6 +166,12 @@
                 android:layout_marginTop="0dp"
                 android:text="@string/munich_question_3" />
 
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mickydees" />
+
             <CheckBox
                 android:id="@+id/question_4_hessia"
                 android:layout_width="wrap_content"
@@ -168,6 +180,12 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:text="@string/munich_question_2" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ppl" />
 
             <TextView
                 android:layout_width="match_parent"
