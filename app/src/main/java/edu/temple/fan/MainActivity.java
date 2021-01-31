@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent quizActivityIntent = new Intent(MainActivity.this, ChiefQuizActivity.class);
+                Intent quizActivityIntent = new Intent(MainActivity.this, ChiefQuiz.class);
                 startActivity(quizActivityIntent);
             }
         });
